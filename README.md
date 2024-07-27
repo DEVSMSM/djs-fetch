@@ -132,8 +132,7 @@ thread(channelId, threadId)
 threads(channelId)
 
 // REACTION
-reaction(channelId, messageId)
-
+reaction(channelId, messageId) {
 // REACTION USER
 user(userId)
 users() // No Need
