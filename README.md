@@ -98,42 +98,50 @@ Fetch {
 // GUILD 
 guild(guildId)
 guilds() // No Need
+
 // EMOJI
 emoji(emojiId)
 emojis(guildId)
+
 // INVITE
 invite(inviteCode)
 invites(guildId)
+
 // ROLE
-role(guildId , roleId)
+role(guildId, roleId)
 roles(guildId)
+
 // MEMBER
-member(guildId , userId)
+member(guildId, userId)
 members(guildId)
+
 // MESSAGE
 message(channelId, messageId)
 messages(channelId)
+
 // VOICESTATE
-voiceState(guildId , userId)
+voiceState(guildId, userId)
 voiceStates(guildId)
+
 // BAN
 ban(guildId, userId)
 bans(guildId)
+
 // THREAD
-thread(channelId , threadId)
+thread(channelId, threadId)
 threads(channelId)
+
 // REACTION
-reaction(channelId , messageId) {
+reaction(channelId, messageId)
+
 // REACTION USER
 user(userId)
 users() // No Need
 }
 
-// All METHODS WORK WITH
-client.fetch.<:method:>
-}
+// Usage: client.fetch.<method>
 ```
 
 ### Need Help ?
-**My Discord Username** ``devszero``
+**My Discord Username:** ``devszero``
 
