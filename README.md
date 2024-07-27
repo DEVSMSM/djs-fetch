@@ -26,7 +26,7 @@ const client = new Client({
 
 client.fetch = new Fetch(client)
 ```
-- OR Add it to CustomClient Class
+# OR Add it to CustomClient Class
 ```
 const Fetch = require("djs-fetch")
 const { Client , GatewayIntentBits } = require("discord.js")
