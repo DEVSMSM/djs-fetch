@@ -92,3 +92,40 @@ if (channels) {
   console.log("Channels not found.");
 }
 ```
+### 3. All methods
+```js
+Fetch {
+// GUILD 
+guild(guildId)
+guilds() // No Need
+// EMOJI
+emoji(emojiId)
+emojis(guildId)
+// INVITE
+invite(inviteCode)
+invites(guildId)
+// ROLE
+role(guildId , roleId)
+roles(guildId)
+// MEMBER
+member(guildId , userId)
+members(guildId)
+// MESSAGE
+message(channelId, messageId)
+messages(channelId)
+// VOICESTATE
+voiceState(guildId , userId)
+voiceStates(guildId)
+// BAN
+ban(guildId, userId)
+bans(guildId)
+// THREAD
+thread(channelId , threadId)
+threads(channelId)
+// REACTION
+reaction(channelId , messageId) {
+// REACTION USER
+user(userId)
+users() // No Need
+}
+}
