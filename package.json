@@ -1,0 +1,35 @@
+{
+  "name": "djs-fetch",
+  "version": "0.0.0",
+  "description": "discord.js fetch handler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEVSMSM/djs-fetch.git"
+  },
+  "keywords": [
+    "discord.js",
+    "discord",
+    "fetch",
+    "fetch handler",
+    "discordjs",
+    "discord.js-fetch",
+    "discord-fetch",
+    "discordjs-fetch"
+  ],
+  "author": "SmSm",
+  "license": "MIT",
+  "devDependencies": {
+    "npm": "^10.8.2"
+  },
+  "bugs": {
+    "url": "https://github.com/DEVSMSM/djs-fetch/issues"
+  },
+  "homepage": "https://github.com/DEVSMSM/djs-fetch#readme",
+  "engines": {
+    "node": ">=20.11.0"
+  }
+}
