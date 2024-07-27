@@ -45,7 +45,8 @@ this.fetch = new Fetch(this);
 }
 ```
 # Examples
-- **Assuming the client has already been initialized**
+## **Assuming the client has already been initialized**
+### 1. Fetching a User:
 ```js
 // Fetch a user by ID
 const userId = "123456789012345678";
