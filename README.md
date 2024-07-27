@@ -13,7 +13,7 @@
 npm i djs-fetch@latest
 ```
 # How To Add it
-```
+```js
 const Fetch = require("djs-fetch")
 const { Client , GatewayIntentBits } = require("discord.js")
 const client = new Client({
@@ -27,7 +27,7 @@ const client = new Client({
 client.fetch = new Fetch(client)
 ```
 # OR Add it to CustomClient Class
-```
+```js
 const Fetch = require("djs-fetch")
 const { Client , GatewayIntentBits } = require("discord.js")
 
@@ -45,15 +45,17 @@ this.fetch = new Fetch(this);
 }
 ```
 # Examples
-
+```js
 // Assuming the client has already been initialized
+
 
 // Fetch a user by ID
 const userId = "123456789012345678";
-const user = await client.fetch.user({ userId });
+const user = await client.fetch.user({ userId }); // or await client.fetch.user(userId)
 
 if (user) {
   console.log(`Fetched user: ${user.username}`);
 } else {
   console.log("User not found.");
 }
+```
