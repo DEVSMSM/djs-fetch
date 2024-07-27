@@ -45,8 +45,8 @@ this.fetch = new Fetch(this);
 }
 ```
 # Examples
-## **Assuming the client has already been initialized**
-### 1. Fetching a User:
+
+### 1. Fetch User & Users:
 ```js
 // Fetch a user by ID
 const userId = "123456789012345678";
@@ -67,5 +67,28 @@ if (users) {
   console.log(`Fetched ${users.size} users from guild ${guildId}`);
 } else {
   console.log("Users not found.");
+}
+```
+### 2. Fetch Channel & Channels:
+```js
+// Fetch a channel by channel ID
+const channelId = "123456789012345678";
+const channel = await client.fetch.channel({ channelId });
+
+if (channel) {
+  console.log(`Fetched channel: ${channel.name}`);
+} else {
+  console.log("Channel not found.");
+}
+```
+```js
+// Fetch all channels from a guild by guild ID
+const guildId = "987654321098765432";
+const channels = await client.fetch.channels({ guildId });
+
+if (channels) {
+  console.log(`Fetched ${channels.size} channels from guild ${guildId}`);
+} else {
+  console.log("Channels not found.");
 }
 ```
