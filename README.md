@@ -45,10 +45,8 @@ this.fetch = new Fetch(this);
 }
 ```
 # Examples
+- **Assuming the client has already been initialized**
 ```js
-// Assuming the client has already been initialized
-
-
 // Fetch a user by ID
 const userId = "123456789012345678";
 const user = await client.fetch.user({ userId }); // or await client.fetch.user(userId)
