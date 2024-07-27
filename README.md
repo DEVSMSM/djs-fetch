@@ -59,3 +59,14 @@ if (user) {
   console.log("User not found.");
 }
 ```
+```js
+// Fetch all users from a guild by guild ID
+const guildId = "987654321098765432";
+const users = await client.fetch.users({ guildId }); // or await client.fetch.users(guildId)
+
+if (users) {
+  console.log(`Fetched ${users.size} users from guild ${guildId}`);
+} else {
+  console.log("Users not found.");
+}
+```
