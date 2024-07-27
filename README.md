@@ -130,5 +130,5 @@ users() // No Need
 }
 
 // All METHODS WORK WITH
-client.fetch.<method>
+client.fetch.<:method:>
 }
