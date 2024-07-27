@@ -58,9 +58,9 @@ if (user) {
 }
 ```
 ```js
-// Fetch all users from a guild by guild ID
+// Fetch all users from a cache by guild ID
 const guildId = "987654321098765432";
-const users = await client.fetch.users({ guildId }); // or await client.fetch.users(guildId)
+const users = await client.fetch.users();
 
 if (users) {
   console.log(`Fetched ${users.size} users from guild ${guildId}`);
