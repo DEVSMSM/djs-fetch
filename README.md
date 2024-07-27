@@ -128,4 +128,7 @@ reaction(channelId , messageId) {
 user(userId)
 users() // No Need
 }
+
+// All METHODS WORK WITH
+client.fetch.<method>
 }
